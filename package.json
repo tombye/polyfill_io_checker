@@ -1,0 +1,14 @@
+{
+  "name": "polyfill_io_checker",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "polyfill-library": "^3.110.1"
+  }
+}
