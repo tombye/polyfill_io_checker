@@ -1,0 +1,261 @@
+{
+    "Array.prototype.concat": {},
+    "Array.prototype.includes": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": []
+    },
+    "_ESAbstract.CreateMethodProperty": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": [
+            "Object.entries",
+            "_ESAbstract.EnumerableOwnProperties",
+            "Object.getOwnPropertyDescriptor"
+        ]
+    },
+    "_ESAbstract.ToObject": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": [
+            "String.prototype.startsWith",
+            "_ESAbstract.ToString",
+            "_ESAbstract.ToPrimitive",
+            "_ESAbstract.GetMethod",
+            "_ESAbstract.GetV"
+        ]
+    },
+    "_ESAbstract.ToLength": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": [
+            "Array.prototype.includes"
+        ]
+    },
+    "_ESAbstract.Get": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": [
+            "String.prototype.startsWith",
+            "_ESAbstract.ToString",
+            "_ESAbstract.ToPrimitive",
+            "_ESAbstract.OrdinaryToPrimitive"
+        ]
+    },
+    "_ESAbstract.ToInteger": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": [
+            "Array.prototype.includes",
+            "_ESAbstract.ToLength"
+        ]
+    },
+    "_ESAbstract.SameValueZero": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": [
+            "Array.prototype.includes"
+        ]
+    },
+    "_ESAbstract.ToString": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": [
+            "Object.entries",
+            "_ESAbstract.EnumerableOwnProperties",
+            "Object.getOwnPropertyDescriptor",
+            "_ESAbstract.ToPropertyKey"
+        ]
+    },
+    "Array.prototype.join": {},
+    "Array.prototype.slice": {},
+    "Array.prototype.sort": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": []
+    },
+    "_ESAbstract.IsCallable": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": [
+            "String.prototype.startsWith",
+            "_ESAbstract.ToString",
+            "_ESAbstract.ToPrimitive",
+            "_ESAbstract.OrdinaryToPrimitive"
+        ]
+    },
+    "Array.prototype.splice": {},
+    "Function.prototype.name": {
+        "flags": [],
+        "aliasOf": [
+            "Function.name"
+        ],
+        "dependencyOf": []
+    },
+    "JSON.Stringify": {},
+    "NodeList.prototype.forEach": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": []
+    },
+    "Object.entries": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": []
+    },
+    "_ESAbstract.EnumerableOwnProperties": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": [
+            "Object.entries"
+        ]
+    },
+    "_ESAbstract.Type": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": [
+            "Object.entries",
+            "_ESAbstract.EnumerableOwnProperties",
+            "Object.getOwnPropertyDescriptor",
+            "_ESAbstract.ToPropertyKey"
+        ]
+    },
+    "Object.keys": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": [
+            "Object.entries",
+            "_ESAbstract.EnumerableOwnProperties"
+        ]
+    },
+    "Object.prototype.toString": {},
+    "RegExp.prototype.constructor": {},
+    "RegExp.prototype.exec": {},
+    "RegExp.prototype.sticky": {},
+    "RegExp.prototype.toString": {},
+    "String.prototype.match": {},
+    "String.prototype.replace": {},
+    "String.prototype.split": {},
+    "String.prototype.startsWith": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": []
+    },
+    "_ESAbstract.RequireObjectCoercible": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": [
+            "String.prototype.trim",
+            "_ESAbstract.TrimString"
+        ]
+    },
+    "_ESAbstract.IsRegExp": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": [
+            "String.prototype.startsWith"
+        ]
+    },
+    "String.prototype.trim": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": []
+    },
+    "_ESAbstract.TrimString": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": [
+            "String.prototype.trim"
+        ]
+    },
+    "_ESAbstract.SameValueNonNumber": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": [
+            "Array.prototype.includes",
+            "_ESAbstract.SameValueZero"
+        ]
+    },
+    "_ESAbstract.ToPrimitive": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": [
+            "Object.entries",
+            "_ESAbstract.EnumerableOwnProperties",
+            "Object.getOwnPropertyDescriptor",
+            "_ESAbstract.ToPropertyKey"
+        ]
+    },
+    "Object.getOwnPropertyDescriptor": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": [
+            "Object.entries",
+            "_ESAbstract.EnumerableOwnProperties"
+        ]
+    },
+    "_ESAbstract.ToBoolean": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": [
+            "String.prototype.startsWith",
+            "_ESAbstract.IsRegExp"
+        ]
+    },
+    "_ESAbstract.Call": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": [
+            "String.prototype.startsWith",
+            "_ESAbstract.ToString",
+            "_ESAbstract.ToPrimitive",
+            "_ESAbstract.OrdinaryToPrimitive"
+        ]
+    },
+    "_ESAbstract.GetMethod": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": [
+            "String.prototype.startsWith",
+            "_ESAbstract.ToString",
+            "_ESAbstract.ToPrimitive"
+        ]
+    },
+    "_ESAbstract.OrdinaryToPrimitive": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": [
+            "String.prototype.startsWith",
+            "_ESAbstract.ToString",
+            "_ESAbstract.ToPrimitive"
+        ]
+    },
+    "_ESAbstract.HasOwnProperty": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": [
+            "Object.entries",
+            "_ESAbstract.EnumerableOwnProperties",
+            "Object.getOwnPropertyDescriptor"
+        ]
+    },
+    "_ESAbstract.ToPropertyKey": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": [
+            "Object.entries",
+            "_ESAbstract.EnumerableOwnProperties",
+            "Object.getOwnPropertyDescriptor"
+        ]
+    },
+    "_ESAbstract.GetV": {
+        "flags": [],
+        "aliasOf": [],
+        "dependencyOf": [
+            "String.prototype.startsWith",
+            "_ESAbstract.ToString",
+            "_ESAbstract.ToPrimitive",
+            "_ESAbstract.GetMethod"
+        ]
+    }
+}
